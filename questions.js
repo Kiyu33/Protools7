@@ -3414,6 +3414,7 @@ const questions = [
     {
         level: "intermediate",
         category: "A1",
+		image: "中級A1-1.png",
         question: "下図の編集ウィンドウで、トラック・ビュー以外に現在表示されているセクションはどれか、最も適切なものを次の中から選び、番号で答えなさい。（※I/O、インサート、センド等が表示されている編集ウィンドウ図）",
         choices: [
             "I/O ビュー",
@@ -3543,6 +3544,7 @@ const questions = [
         {
         level: "intermediate",
         category: "A1",
+		image: "中級A1-2.png",
         question: "下図のH/Wインサート・ディレイ・ウィンドウに関する説明で、適切なものを次の中から選び、番号で答えなさい。（※ミリ秒単位でディレイを入力できるH/Wインサート・ディレイ・ウィンドウの図）",
         choices: [
             "このセクションはハードウェア・インサートした際に、遅延補正エンジンによって補正したい数値を入力するためのものである。",
@@ -3569,6 +3571,7 @@ const questions = [
     {
         level: "intermediate",
         category: "A1",
+		image: "中級A1-3.png",
         question: "プレイバックエンジンに関する記述で、最も適切なものを次の中から選び、番号で答えなさい。",
         choices: [
             "HDXが1枚搭載されたシステムでHybrid Engineをオンにすることで、ボイス数が2048になる。",
