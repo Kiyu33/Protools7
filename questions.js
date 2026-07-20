@@ -1354,7 +1354,7 @@ const questions = [
     {
         level: "beginner",
         category: "B2",
-        v1image: "images/questionsB2-7.png",
+        image: "images/questionsB2-7.png",
         question: "シャッフル・モードの時、下図のスクリーンショット上のオーディオ・クリップ（5番のクリップ）をメモリー・ロケーションAの位置（1番と2番の間）に移動させるとどの順に並ぶか、次の中から選び、番号で答えなさい。",
         choices: [
             "1-5-2-3-4",
