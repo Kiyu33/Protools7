@@ -3891,6 +3891,7 @@ const questions = [
     	{
 		level: "intermediate",
 		category: "A2",
+		image: "中級A2-1.png",
 		question: "下図のスクリーンショットの説明で、最も適切なものを次の中から選び、番号で答えなさい。（※3本のトラックヘッダーと波形が表示されている編集画面の図）",
 		choices: [
 			"このセッションには3トラックしか存在しない。",
@@ -3903,6 +3904,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "A2",
+		image: "中級A2-2.png",
 		question: "下図のスクリーンショットの状態で、再生を行った時の説明として適切なものを次の中から選び、番号で答えなさい。（※5〜7小節目の範囲がハイライトされ、再生開始位置のシンボルが3小節目にある図）",
 		choices: [
 			"再生は5小節目から始まり、7小節目の終わりに達した後、5小節目〜7小節目の終わりをループ再生する。",
@@ -3915,6 +3917,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "A2",
+		image: "中級A2-3.png",
 		question: "右図のスクリーンショットから判断して、このインストゥルメント・トラックに現在表示されているカラムは何か、次の中から選び、番号で答えなさい。（※トラックのインサートの上に表示される「インストゥルメント」のカラム図）",
 		choices: [
 			"センド・カラムとI/Oカラム",
@@ -4037,6 +4040,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B1",
+		image: "中級B1-1.png",
 		question: "右図のスクリーンショットに表示されている、タイムライン上の「左半分の矢印」が表すものを次の中から選び、番号で答えなさい。（※再生/選択範囲の開始イン・ポイントの図）",
 		choices: [
 			"現在のカーソル位置",
@@ -4050,6 +4054,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B1",
+		image: "中級B1-2.png",
 		question: "右図のスクリーンショットに表示されている、タイムライン上の「右半分の矢印」が表すものを次の中から選び、番号で答えなさい。（※再生/選択範囲の終了アウト・ポイントの図）",
 		choices: [
 			"現在のカーソル位置",
@@ -4089,6 +4094,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B1",
+		image: "中級B1-3.png",
 		question: "下図のトランスポート・ウィンドウにおいて、クリックに使用されているテンポ分解能を次の中から選び、番号で答えなさい。（※メトロノームマークの横に表示される音符マークの図）",
 		choices: [
 			"全音符",
@@ -4102,6 +4108,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B1",
+		image: "中級B1-4.png",
 		question: "下図の【ディスク割り当て】ダイアログの [変更する] ボタンをクリックすることで可能な操作はどれか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"指定したトラックを新規のセッションにトランスファーできる。",
@@ -4166,6 +4173,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B1",
+		image: "中級B1-5.png",
 		question: "下図のスクリーンショットの中で、MIDIイベントが受信されるまでレコーディングが待機状態になる「ノート待ち」のボタンはどれか、次の中から選び、番号で答えなさい。（※トランスポート上のキーボードのようなアイコンのボタン）",
 		choices: [
 			"A",
@@ -4205,9 +4213,10 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B1",
+		image: "中級B1-6.png",
 		question: "下図のスクリーンショットの状態を何というか、次の中から選び、番号で答えなさい。なお、この機能はHDXシステムまたはHD Nativeシステムのみである。（※各フェーダーの下部に「cal -16.0」「Calibration」と表示されているミキサー図）",
 		choices: [
-			"プロ・セーブ・モード",
+			"ソロ・セーブ・モード",
 			"キャリブレーション・モード",
 			"初期化",
 			"チャンネル・マッピング"
@@ -4217,6 +4226,7 @@ const questions = [
     	{
 		level: "intermediate",
 		category: "B1",
+		image: "中級B1-7.png",
 		question: "下図のスクリーンショットのような状態でレコーディングを始めた時どうなるか、適切なものを次の中から選び、番号で答えなさい。（※プリロールにチェックが入っており、1小節分のプリロール選択範囲がある状態でレコーディングを開始する図）",
 		choices: [
 			"1小節プリロール（プリロール再生）した後、選択範囲をノンディストラクティブ録音。",
@@ -4256,6 +4266,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B1",
+		image: "中級B1-8.png",
 		question: "下記の動作の説明として正しいものはどれか、次の中から選び、番号で答えなさい。\n「ギターのオーバーダビング中、図のようにQuick Punchでレコーディングをしていた。48小節あたりでレコーディングを停止した際にGtr 2_04のクリップがあった場所で下向きの矢印（オリジナル位置の矢印）が一瞬示された。」",
 		choices: [
 			"新しくプレイリストが作成され、Gtr 2_04のクリップはそちらに自動的に退避・移動した。",
@@ -4359,6 +4370,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-1.png",
 		question: "右図のスクリーンショットにおいて、編集範囲とタイムライン範囲をリンク/非リンクさせるものを次の中から選び、番号で答えなさい。（※波形のようなアイコンのリンクボタンの図）",
 		choices: [
 			"A",
@@ -4372,6 +4384,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-2.png",
 		question: "右図のスクリーンショットにおいて、トラックと編集位置をリンク/非リンクさせるものを次の中から選び、番号で答えなさい。",
 		choices: [
 			"A",
@@ -4385,6 +4398,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-3.png",
 		question: "下図に示されている \"Vocal 1\" と \"Vocal 2\" の両クリップは、グラバー・ツールのオプションのうち、どれを使って選択されたものか、最も適切なものを次の中から選び、番号で答えなさい。",
 		choices: [
 			"タイム・グラバー",
@@ -4411,6 +4425,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-4.png",
 		question: "下図のスクリーンショットの状況において、[Option] (Mac)/[Alt] (Win) + [Shift] + [3] を押すとどうなるか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"クリップのミュートが行われる。",
@@ -4436,6 +4451,7 @@ const questions = [
     	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-5.png",
 		question: "下図のスクリーンショットの状況において、矢印で示されたボタンをクリックするとどうなるか、次の中から選び、番号で答えなさい。（※マーカー追加ボタンの図）",
 		choices: [
 			"クリップ上に示された黄色い線でクリップが分割される。",
@@ -4449,6 +4465,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-6.png",
 		question: "下図のトランスポート・ウィンドウにおいて、タップでテンポを変更するにはどうしたらよいか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"キーボードの「T」を希望のテンポで叩く。",
@@ -4553,6 +4570,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-7.png",
 		question: "下図のスクリーンショットのように、クリップ・グループを組んだ状態で、クリップ・グループ同士にクロスフェードをかけた。この後、クリップ・グループを解除するとどうなるか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"クリップ・グループ同士にかけたクロスフェードは削除される。",
@@ -4565,6 +4583,7 @@ const questions = [
     	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-8.png",
 		question: "右図のAudioSuiteプラグインのメニューに関して、適切な説明を次の中から選び、番号で答えなさい。",
 		choices: [
 			"これはデフォルトのAudioSuite プラグインのメニュー表示である。",
@@ -4617,6 +4636,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-9.png",
 		question: "下図のように、ループ・トリマー・ツールを使ってクリップをループした後、一番右端のクリップの長さを標準トリマー・ツールで半分にした時どうなるか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"一番右のクリップの長さだけが半分になる。",
@@ -4656,6 +4676,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-10.png",
 		question: "下図のスクリーンショットで選ばれているスクロール・オプションは何か、次の中から選び、番号で答えなさい。（※再生後に従うの図など）",
 		choices: [
 			"ページ切り換え",
@@ -4669,6 +4690,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-11.png",
 		question: "下図のスクリーンショットの状況において、フェード部分に行うことができる編集として適切なものを次の中から選び、番号で答えなさい。（※フェード選択範囲の図）",
 		choices: [
 			"[Command] (Mac) / [Control] (Win) + [C] でフェードをコピー",
@@ -4746,6 +4768,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-12.png",
 		question: "編集画面上で下図のように設定されている時、クリップの順番を入れ換えた際の動作として適切なものを次の中から選び、番号で答えなさい。（※オートメーションを編集に追従の図など）",
 		choices: [
 			"ボリューム・オートメーションは入れ換わらない。",
@@ -4759,6 +4782,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-13.png",
 		question: "編集画面で、下図のように①〜③のクリップのうち、特定のクリップがグレイアウトしていた。この時の状況として適切なものを次の中から選び、番号で答えなさい。（※ミュートされたクリップの図）",
 		choices: [
 			"①のクリップのみが再生される。",
@@ -4772,6 +4796,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-14.png",
 		question: "任意のクリップを選択している時、下図の矢印のボタンをクリックするとどうなるか、適切なものを次の中から選び、番号で答えなさい。（※クリップ再生ボタンの図）",
 		choices: [
 			"クリップが任意の大きさに拡大される。",
@@ -4785,6 +4810,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-15.png",
 		question: "シャッフルモードの時、下図の②のクリップだけを選択してDeleteした。この時の動作で適切なものを次の中から選び、番号で答えなさい。",
 		choices: [
 			"①と③のクリップはそのままで、②のクリップだけが削除された。",
@@ -4798,6 +4824,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "B2",
+		image: "中級B2-16.png",
 		question: "下図のスクリーンショット上のメイン・タイムスケールはどれか、次の中から選び、番号で答えなさい。（※「1 | 1 | 000」など小節拍表示のメインカウンター図）",
 		choices: [
 			"小節|拍",
@@ -4875,6 +4902,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-1.png",
 		question: "右図のスクリーンショットに示されたトラックは何トラックか、次の中から選び、番号で答えなさい。（※グループ名が「no group」、ボリュームフェーダーのみが配置されているトラックヘッダー図）",
 		choices: [
 			"ミックス・トラック",
@@ -4901,6 +4929,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-2.png",
 		question: "下図のスクリーンショットから判断して、プラグイン・ディレイ・インジケータはどれか、次の中から選び、番号で答えなさい。（※一番上の段に並ぶdly数値、cmp数値、オフセット数値のうちdly値を指し示す箇所の図）",
 		choices: [
 			"A",
@@ -4914,6 +4943,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-3.png",
 		question: "下図のスクリーンショットから判断して、ユーザー・オフセットはどれか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"A",
@@ -4927,6 +4957,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-4.png",
 		question: "下図のスクリーンショットから判断して、トラック補正インジケータはどれか、次の中から選び、番号で答えなさい。（※遅延補正値が適用された全体の補正値を表すインジケータ部分の図）",
 		choices: [
 			"A",
@@ -4952,6 +4983,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-5.png",
 		question: "右図のスクリーンショットで、アウトプット・セレクタが淡くなっているのはなぜか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"プラグインが、非アクティブになっているから。",
@@ -4965,6 +4997,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-6.png",
 		question: "右図のステレオ・センド・アサインに関する記述のうち、正しいものはどれか、次の中から選び、番号で答えなさい。（※パンノブ部分のリンク表示に関する図）",
 		choices: [
 			"ミュートされている。",
@@ -4991,6 +5024,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-7.png",
 		question: "右図ではマスター・トラックにDitherプラグインがインサートされているが、Ditherプラグインとは何を行うプラグインか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"ヴォーカルなどの耳障りな歯擦音、摩擦音サ行音を軽減させるためのプラグイン。",
@@ -5004,6 +5038,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-8.png",
 		question: "下図の説明として、適切なものを次の中から選び、番号で答えなさい。（※ミキサー上のいくつかの非アクティブトラックやバイパスプラグインの図）",
 		choices: [
 			"トラックナンバー3はトラック自体が非アクティブに設定されているが、ボイスはアサインされている。",
@@ -5017,6 +5052,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-9.png",
 		question: "下図の説明として、適切なものを次の中から選び、番号で答えなさい。（※フェーダー部分やプリ・ポスト切り替えインジケータ部分を指し示す図）",
 		choices: [
 			"AはHD Native システムのみの表示オプションである。",
@@ -5030,6 +5066,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-10.png",
 		question: "右図の説明として、適切なものを次の中から選び、番号で答えなさい。（※ステレオパン・ポットをリンクした状態の図）",
 		choices: [
 			"パンがリンクされている。",
@@ -5120,6 +5157,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C1",
+		image: "中級C1-11.png",
 		question: "下図の説明として、適切なものを次の中から選び、番号で答えなさい。（※5.1chやステレオセンドなどのサラウンドパス設定画面の図）",
 		choices: [
 			"AUXトラックは7.1チャンネルで、センドCでBus Aに送られつつ、Bus AのサブバスであるBus Bにも送られる。",
@@ -5171,6 +5209,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C2",
+		image: "中級C3-1.png",
 		question: "プラグインのインサート・ボタンについて、下図のように表示された場合の説明で、適切なものを次の中から選び、番号で答えなさい。（※スロット文字が斜体/グレーアウトしている図）",
 		choices: [
 			"プラグインがバイパスされている。",
@@ -5248,6 +5287,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C2",
+		image: "中級C3-2.png",
 		question: "右図のスクリーンショットから判断して、ReVibeによって使用されているDSPチップの数はいくつか、次の中から選び、番号で答えなさい。（※プラグイン画面のDSPインジケータ部分の図）",
 		choices: [
 			"1",
@@ -5300,6 +5340,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C2",
+		image: "中級C3-3.png",
 		question: "下図のスクリーンショットに矢印で示されているボタン（※Øと書かれた位相反転ボタン）の説明として、適切なものを次の中から選び、番号で答えなさい。",
 		choices: [
 			"GAINスライダーを最高値に設定する。",
@@ -5377,6 +5418,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C3",
+		image: "中級C2-1.png",
 		question: "オートメーションをラッチの状態で書き込みをしていたら、下図の矢印部分（インジケータ等）が交互に点いたり消えたりした。この状況を表す記述として、適切なものを次の中から選び、番号で答えなさい。",
 		choices: [
 			"そのトラック全体のボリュームの平均値より上か下か。",
@@ -5428,6 +5470,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "C3",
+		image: "中級C2-2.png",
 		question: "Pro Toolsが再生中の時、現在のオートメーション値をオートメーションのパンチ・ポイントに戻って書き込むには下図のどのボタンを押せばよいか、次の中から選び、番号で答えなさい。（※オートメーション・ウィンドウの書き込み、停止時書き込み関連ボタンの図）",
 		choices: [
 			"A",
@@ -5595,6 +5638,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "D1",
+		image: "中級D1-1.png",
 		question: "下図のスクリーンショットの説明として適切なものを次の中から選び、番号で答えなさい。（※Clip AやClip Bのマーク表示に関する図）",
 		choices: [
 			"Clip Aにはシンクポイントが設定されている。",
@@ -5685,6 +5729,7 @@ const questions = [
     	{
 		level: "intermediate",
 		category: "D1",
+		image: "中級D1-2.png",
 		question: "下図のスクリーンショットに示された、編集ウィンドウ上のトラック（トラック名: 1234、フレームレート表示のあるトラック）は何トラックか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"アビッド・トラック",
@@ -5866,6 +5911,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "D1",
+		image: "中級D1-3.png",
 		question: "下図のスクリーンショットで示しているAについて、適切なものを次の中から選び、番号で答えなさい。（※オンライン状態を表すビデオトラック部分の図）",
 		choices: [
 			"表示されているトラックがオーディオ・トラックで、レコーディング可能であることを示している。",
@@ -6214,12 +6260,13 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "D3",
+		image: "中級D3-1.png",
 		question: "右図のMIDIリアルタイム・プロパティにおいて、トランスポーズの値は何に設定されているか、次の中から選び、番号で答えなさい。（※オクターブ単位やハーフステップ単位の設定図）",
 		choices: [
-			"オクターブ",
-			"ハーフ・ステップ",
+			"0",
+			"1ハーフ・ステップ",
 			"1ステップ",
-			"2オクターブ"
+			"1オクターブ"
 		],
 		answer: 3
 	},
@@ -6239,6 +6286,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "D3",
+		image: "中級D3-3.png",
 		question: "下図のウィンドウは、どのウィンドウか、次の中から選び、番号で答えなさい。（※「11|1|0000」「C3」「80」「64」などのリスト一覧図）",
 		choices: [
 			"MIDIイベント・リスト",
@@ -6278,6 +6326,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "D3",
+		image: "中級D3-2.png",
 		question: "「MIDI編集のミラーリング」ボタンを下図から選び、番号で答えなさい。（※二つの丸（音符）が鏡合わせになっているようなアイコンボタンの図）",
 		choices: [
 			"A",
@@ -6291,6 +6340,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "D3",
+		image: "中級D3-4.png",
 		question: "下図のスクリーンショットのような状態で、Xpand!2から音が出ない理由として、正しいものを次の中から選び、番号で答えなさい。（※ミキサーのインストゥルメント出力先やアサインの図）",
 		choices: [
 			"MIDIインプットが正しく設定されていないから。",
@@ -6368,6 +6418,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "D4",
+		image: "中級D4-1.png",
 		question: "各トラックの下にある、オーディオ・ボリューム・インジケーターを [volume] ↔ [delay] 表示に切り換えるための操作はどれか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"[Command] (Mac) / [Control] (Win) + オーディオ・ボリューム・インジケーターのウィンドウをクリック。",
@@ -6381,6 +6432,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "D4",
+		image: "中級D4-4.png",
 		question: "アサインしたセンドを右図のスクリーンショット（※ミニセンドフェーダー表示）のような状態に表示を変更するためには、センド・セレクタをどのキーを押しながらクリックするか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"[Command] (Mac) / [Control] (Win)",
@@ -6445,6 +6497,7 @@ const questions = [
     	{
 		level: "intermediate",
 		category: "D4",
+		image: "中級D4-3.png",
 		question: "[表示] メニュー ＞ [編集ウィンドウ] にて指定した表示オプションをウィンドウ上の特定のエリアをクリックすることにより削除することが可能であるが、その時に使用するデフォルトショートカットキーを次の中から選び、番号で答えなさい。",
 		choices: [
 			"[Option] (Mac) / [Alt] (Win) + クリック",
@@ -6510,6 +6563,7 @@ const questions = [
 	{
 		level: "intermediate",
 		category: "D4",
+		image: "中級D4-2.png",
 		question: "下図のスクリーンショット（※フォルダトラックの図）の状態において、デフォルトショートカット [Command] (Mac) / [Control] (Win) + [ ］を押すとどうなるか、次の中から選び、番号で答えなさい。",
 		choices: [
 			"クリップが2つに分割される。",
